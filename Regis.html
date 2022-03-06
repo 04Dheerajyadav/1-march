@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geekster Admission form</title>
+    <link rel = "stylesheet" href = "index.css"/>
+</head>
+<body> 
+    <div>
+    <th><h2>Application form</h2><th>
+    <form action ="wwww.google.com"></form>
+    Full name*<br><br>
+    <tr><input type ="text" placeholder = "Enter Full name" /></tr>
+    <br><br>
+    Email*<br><br>
+    <input type ="email" placeholder = "Enter email" required>
+    <br><br>
+    Phone*<br><br>
+    <input type ="tel" size = "10" placeholder ="Enter the number" minlength="6000000000" maxlength="9999999999">
+    <br><br>
+    Password*<br><br>
+    <input type = "password" id ="pass" placeholder = "Enter your password"/><br><br>
+    Confirm Password*<br><br>
+    <input type = "password" id = "con_pass" placeholder ="Confirm your password"/><br><br>
+    Highest Degree*<br><br>
+    <Select name ="Degree">
+        <option value =""></option>
+        <option value ="B.tech">B.tech</option>
+        <option value ="M.tech">M.tech</option>
+        <option value ="MBA">MBA</option>
+        <option value ="other">Other</option>
+    </Select> <br><br>
+    Year of completion*<br><br>
+    <select name ="year">
+        <option value =""></option>
+        <option value ="2018">2018</option>
+        <option value ="2019">2019</option>
+        <option value ="2020">2020</option>
+        <option value ="2021">2021</option>
+        <option value ="2022">2022</option>
+    </select><br><br>
+   Programming Skills*<br><br>
+    <select name ="Skills">
+        <option value =""></option>
+        <option value ="No coding skills">No coding skills</option>
+        <option value ="Basic coding skills">Basic coding skills</option>
+        <option value ="intermediate coding skills">intermediate coding skills</option>
+        <option value ="Good  coding skills">Good coding skills</option>
+    </select><br><br>
+    <input type ="checkbox">By signing up, you agree to the Terms and Condtions of Geekster(QunatumBit technologies Pvt. Ltd.)*<br><br>
+    <button onclick ="check_pass();">Submit</button>
+    <input type ="reset"/>
+    <h3><br><span id = "conf"></span></h3>
+    </div>
+    <script src = "index.js"></script>
+    
+</body>
+</html>
